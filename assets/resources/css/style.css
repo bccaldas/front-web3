@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  background: #fff;
+  max-height: 80px;
+  padding: 10px 50px;
+  box-shadow: inset 0 -1px 0 #dcdcdc;
+  z-index: 9;
+}
+  header .headerLogo {
+    width: 100%;
+  }
+    header .headerLogo img {
+      width: 100%;
+      max-width: 80px;
+    }
+  header .headerFilter {
+    width: 50%;
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    margin: 0 auto;
+    position: relative;
+  }
+    header .headerFilter .searchFilter {
+      width: 100%;
+      outline: none;
+      background: #f7f7f7;
+      border: none;
+      border-radius: 2px;
+      padding: 7px 10px;
+      color: #000;
+      padding-right: 30px;
+      font-size: 12px;
+    }
+    header .headerFilter .searchFilterButton {
+      position: absolute;
+      right: 10px;
+      border: none;
+      background: transparent;
+      outline: none;
+      font-size: 14px;
+      z-index: 2;
+    }
+  header .headerActions {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    flex-direction: row;
+    padding: 4px;
+  }
+    header .headerActions a {
+      width: 35%;
+      text-align: right;
+      text-decoration: none;
+      color: #000;
+      outline: none;
+    }
+      header .headerActions a i {
+        padding-right: 5px;
+      }
+
+.templateBody {
+  padding: 15px 30px;
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  margin-top: 60px;
+}
+  .templateBody .homeContent {
+
+  }
+    .templateBody .homeContent .restaurantsList {
+
+    }
+      .templateBody .homeContent .restaurantsList ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        font-size: 0;
+      }
+        .templateBody .homeContent .restaurantsList ul li.restaurant {
+          font-size: 12px;
+          display: inline-block;
+          width: 32%;
+          margin-right: 1%;
+          margin-bottom: 10px;
+          box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.14);
+        }
+          .templateBody .homeContent .restaurantsList ul li.restaurant .restaurantStructure {
+            display: flex;
+            flex: 1;
+            flex-direction: row;
+            align-items: center;
+            align-content: center;
+            padding: 10px;
+          }
+            .templateBody .homeContent .restaurantsList ul li.restaurant .restaurantStructure .thumbnail {
+              width: 25.5%;
+              padding: 8px 10px;
+            }
+            .templateBody .homeContent .restaurantsList ul li.restaurant .restaurantStructure .restaurantInfoDivisor {
+              width: 1px;
+              height: 60px;
+              background: #f2f2f2;
+            }
+              .templateBody .homeContent .restaurantsList ul li.restaurant .restaurantStructure .thumbnail img {
+                width: 100%;
+                height: auto;
+                border-radius: 3px;
+                max-width: 60px;
+              }
+            .templateBody .homeContent .restaurantsList ul li.restaurant .restaurantStructure .restaurantInfo {
+              width: 74%;
+              padding: 0px 8px;
+            }
+              .templateBody .homeContent .restaurantsList ul li.restaurant .restaurantStructure .restaurantInfo .restaurantName {
+                display: block;
+                margin-bottom: 5px;
+                color: #3e3e3e;
+                font-size: 13px;
+                font-weight: 600;
+              }
+              .templateBody .homeContent .restaurantsList ul li.restaurant .restaurantStructure .restaurantInfo .restaurantDescription {
+
+              }
+                .templateBody .homeContent .restaurantsList ul li.restaurant .restaurantStructure .restaurantInfo .restaurantDescription .restaurantCategory {
+
+                }
+                .templateBody .homeContent .restaurantsList ul li.restaurant .restaurantStructure .restaurantInfo .restaurantDescription .restaurantDistance {
+
+                }
+              .templateBody .homeContent .restaurantsList ul li.restaurant .restaurantStructure .restaurantInfo .restaurantDeliveryInfo {
+
+              }
+                .templateBody .homeContent .restaurantsList ul li.restaurant .restaurantStructure .restaurantInfo .restaurantDeliveryInfo .deliveryTime {
+
+                }
+                .templateBody .homeContent .restaurantsList ul li.restaurant .restaurantStructure .restaurantInfo .restaurantDeliveryInfo .deliveryFee {
+
+                }
+
+
+footer {
+
+}
+  footer .footerActions {
+
+  }
+    footer .footerActions a {
+
+    }

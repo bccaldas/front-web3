@@ -181,6 +181,54 @@ header {
 
                 }
 
+  .templateBody .restaurantComponent  {}
+    .templateBody .restaurantComponent .restaurantInfo {}
+      .templateBody .restaurantComponent .restaurantInfo p {}
+      .templateBody .restaurantComponent .restaurantInfo p.restaurantName {
+        font-size: 22px;
+        margin-bottom: 0;
+        font-weight: 600;
+        color: #3e3e3e;
+      }
+      .templateBody .restaurantComponent .restaurantInfo p.restaurantDescription {
+        margin-bottom: 10px;
+        font-size: 16px;
+        color: #6d7273;
+      }
+      .templateBody .restaurantComponent .restaurantInfo .restaurantDetails {}
+        .templateBody .restaurantComponent .restaurantInfo .restaurantDetails span {
+          font-size: 14px;
+          position: relative;
+          color: #716f6f;
+          margin-right: 10px;
+        }
+        .templateBody .restaurantComponent .restaurantInfo .restaurantDetails span::after {
+          content: "";
+          width: 2px;
+          height: 2px;
+          border-radius: 100%;
+          background: #3e3e3e;
+          position: absolute;
+          top: 50%;
+          right: -9px;
+          transform: translateY(-50%);
+          display: block;
+        }
+        .templateBody .restaurantComponent .restaurantInfo .restaurantDetails span:last-child::after {
+          display: none;
+        }
+        .templateBody .restaurantComponent .restaurantInfo .restaurantDetails span.restaurantCategory {}
+        .templateBody .restaurantComponent .restaurantInfo .restaurantDetails span.deliveryTime {}
+        .templateBody .restaurantComponent .restaurantInfo .restaurantDetails span.restaurantDistance {}
+        .templateBody .restaurantComponent .restaurantInfo .restaurantDetails span.deliveryFee {
+          color: #000;
+          border: 1px solid #000;
+          border-radius: 2px;
+          padding: 1px 10px;
+        }
+
+
+
 
 footer {
   box-shadow: inset 0 1px 0 #dcdcdc;
